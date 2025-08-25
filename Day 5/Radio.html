@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Select Your Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <br>
+    <p>Select Your Hobbies</p>
+    <input type="checkbox" id="reading" name="hobby" value="reading">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" id="traveling" name="hobby" value="traveling">
+    <label for="traveling">Traveling</label><br>
+    
+    <input type="checkbox" id="sports" name="hobby" value="sports">
+    <label for="sprts">Sports</label>
+    <br>
+    <br>
+    <form action="/submit-fruit" method="post">
+        <label for="fruit">Fruit</label><br>
+        <select id="fruit" name="fruit">
+            <option value="">--Select a Fruit--</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select><br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Live Edit Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #282c34;
+      color: #61dafb;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    button {
+      font-size: 1.5em;
+      padding: 10px 20px;
+      cursor: pointer;
+      background: #61dafb;
+      border: none;
+      border-radius: 5px;
+      color: #282c34;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">Hello, Mukilan!</h1>
+  <button onclick="changeText()">Click Me</button>
+
+  <script>
+    function changeText() {
+      const title = document.getElementById('title');
+      if (title.textContent === 'Hello, Mukilan!') {
+        title.textContent = 'You clicked the button!';
+      } else {
+        title.textContent = 'Hello, Mukilan!';
+      }
+    }
+  </script>
+</body>
+</html>

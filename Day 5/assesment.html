@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <input type="text" placeholder="Text"><br>
+        <input type="password" placeholder="Password"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="checkbox">I agree<br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h1>Submit Form</h1>
+    <form action="/submit" method="post">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter Your Email" required>
+        <br>
+        <br>
+        <input type="submit" placeholder="Submit" required>
+    </form>
+</body>
+</html>
